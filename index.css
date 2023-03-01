@@ -1,0 +1,27 @@
+.todo-container {
+  background-color: rgba(243, 243, 243, 0.911);
+  height: 100vh;
+}
+.todo-heading-container {
+  text-align: center;
+}
+.text-and-button-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.add-button {
+  margin-top: 12px;
+  width: 60px;
+  height: 25px;
+  border: solid 1px;
+  border-radius: 2px;
+}
+.text-container {
+  height: 25px;
+  border-radius: 5px;
+  border: solid 1px;
+}
+.my-tasks-container {
+  margin-top: 50px;
+}
