@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
 .todo-container {
-  background-color: rgba(243, 243, 243, 0.911);
+  background-color: #f9fbfe;
   height: 100vh;
 }
-.todo-heading-container {
+.todo-heading {
   text-align: center;
+  margin: 20px 20px;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.create-task-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
 }
 .text-and-button-container {
   display: flex;
@@ -11,17 +23,33 @@
   flex-direction: column;
 }
 .add-button {
-  margin-top: 12px;
-  width: 60px;
-  height: 30px;
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
   border: solid 1px;
-  border-radius: 2px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: fit-content;
 }
-.text-container {
-  height: 35px;
-  border-radius: 5px;
-  border: solid 1px;
+/* .my-tasks-container {
+  margin-top: 10px;
+} */
+.my-tasks-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
 }
-.my-tasks-container {
-  margin-top: 50px;
+.input-text {
+  background-color: white;
+  width: 95%;
+  border: solid 1px #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
 }
